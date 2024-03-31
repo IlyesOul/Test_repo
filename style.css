@@ -253,7 +253,7 @@ a:visited{
     width:6px;
     height: 125px;
     background-color:blue;
-    margin-left:875px;
+    margin-left:calc(100vw/1.463);
     margin-top:-85px;
 }
 
