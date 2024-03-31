@@ -201,7 +201,8 @@ a:visited{
 .white_circle
 {
     border-radius: 50%;
-    margin-left:calc(100vw/5.12);
+    /*margin-left:calc(100vw/5.12);*/
+    margin-left: 312.5px;
     width: 45px;
     height:45px;
     background-color: whitesmoke; 
@@ -221,7 +222,8 @@ a:visited{
 .red_circle
 {
     border-radius: 50%;
-    margin-left:calc(100vw/5.12);
+    /*margin-left:calc(100vw/5.12);*/
+    margin-left: 312.5px;
     width: 45px;
     height:45px;
     background-color: red; 
@@ -231,7 +233,8 @@ a:visited{
 .green_circle
 {
     border-radius: 50%;
-    margin-left:calc(100vw/5.12);
+    /*margin-left:calc(100vw/5.12);*/
+    margin-left: 312.5px;
     width: 45px;
     height:45px;
     background-color: darkgreen; 
