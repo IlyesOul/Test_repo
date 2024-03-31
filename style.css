@@ -202,10 +202,10 @@ a:visited{
 {
     border-radius: 50%;
     margin-left:calc(100vw/4.5);
-    width: 45px;
-    height:45px;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
     background-color: whitesmoke; 
-    margin-top:75px
+    margin-top:calc(100vw/17.067);
 }
 
 .white_circle :hover .white_text
@@ -222,27 +222,26 @@ a:visited{
 {
     border-radius: 50%;
     margin-left:calc(100vw/4.5);
-    width: 45px;
-    height:45px;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
     background-color: red; 
-    margin-top:75px
+    margin-top:calc(100vw/17.067);
 }
 
 .green_circle
 {
     border-radius: 50%;
     margin-left:calc(100vw/4.5);
-    width: 45px;
-    height:45px;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
     background-color: darkgreen; 
-    margin-top:175px
+    margin-top:calc(100vw/7.31428);
 }
 
 .title
 {
     font-family: '"Lucida Console", "Courier New", monospace;';
-    margin-left:320px;
-    margin-top:-190px;
+    margin-top:calc(-100vw/6.7638);
     color:white;
     font-size: calc(100vw/25.6);
 }
@@ -250,11 +249,11 @@ a:visited{
 
 .blue_bar
 {
-    width:6px;
-    height: 125px;
+    width:calc(100vw/213.33);
+    height: calc(100vw/9);
     background-color:blue;
     margin-left:calc(100vw/1.463);
-    margin-top:-85px;
+    margin-top:calc(-100vw/15.059);
 }
 
 .green_bar
@@ -453,16 +452,16 @@ li {
 {
     font-family: Lucida Console, Courier New, monospace;
     color:whitesmoke;
-    margin-top:-156px;
+    margin-top:calc(-100vw/8.205);
     font-size: calc(100vw/91.429);
     margin-left:calc(100vw/25.6);
 }
 
 .instruction_bar
 {
-    height:3px;
-    width: 270px;
+    height:calc(100vw/426.667);
+    width: calc(100vw/4.741);
     background-color:darkgreen;
-    margin-left:100px;
-    margin-top:-60px;
+    margin-left:calc(100vw/128);
+    margin-top:calc(-100vw/21.333);
 }
