@@ -258,11 +258,11 @@ a:visited{
 
 .green_bar
 {
-    height:3px;
-    width: 270px;
+    height:calc(100vw/426.667);
+    width: calc(100vw/4);
     background-color:darkgreen;
-    margin-left:100px;
-    margin-top:-60px;
+    margin-left:calc(100vw/12.8);
+    margin-top:calc(-100vw/21.3333);
 }
 
 .red_bar
@@ -464,4 +464,14 @@ li {
     background-color:darkgreen;
     margin-left:calc(100vw/128);
     margin-top:calc(-100vw/21.333);
+}
+
+.description_img {
+    width: calc(100vw/2.1333);
+    height: calc(100vw/3.2);
+  }
+
+.selfie_img {
+    width: calc(100vw/6.4);
+    height: calc(100vw/3.657);
 }
