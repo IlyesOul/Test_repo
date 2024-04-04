@@ -475,3 +475,9 @@ li {
     width: calc(100vw/6.4);
     height: calc(100vw/3.657);
 }
+
+.list_grid
+{
+    position: relative;
+    width:100vw;
+}
