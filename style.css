@@ -341,19 +341,19 @@ li {
  }
 
  .battery {
-    border: 3px solid #333;
-    width: 40px;
-    height: 250px;
-    padding: 2px;
-    border-radius: 4px;
+    border: calc(100vw/426.7) solid #333;
+    width: calc(100vw/32);
+    height: calc(100vw/5.12);
+    padding: calc(100vw/640);
+    border-radius: calc(100vw/320);
     position: relative;
-    margin: 15px;
+    margin: calc(100vw/85.33);
     border-color:aliceblue;
     transform:rotate(90deg);
  }
 
  .batteryLevel {
-    border-radius: 2px;
+    border-radius: calc(100vw/640);
     background-color: #73AD21;
   } 
   
@@ -488,3 +488,4 @@ li {
     width:100vw;
     margin-top:calc(100vw/8.5333);
 }
+
