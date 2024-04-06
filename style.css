@@ -410,7 +410,7 @@ li {
   .container {
     display: grid;
     grid-template-rows: auto auto auto; /* Three rows of equal height */
-    position:relative
+    position:absolute;
   }
 
   .item {
@@ -494,5 +494,5 @@ li {
 {
     position: relative;
     width:100vw;
-    margin-top:calc(100vw/8.5333);
+    margin-top:calc(-100vw/75);
 }
