@@ -267,11 +267,11 @@ a:visited{
 
 .red_bar
 {
-    height:3px;
-    width: 270px;
+    height:calc(100vw/426.67);
+    width: calc(100vw/4.74);
     background-color:red;
-    margin-left:110px;
-    margin-top:-50px;
+    margin-left:calc(100vw/11.636);
+    margin-top:calc(-100vw/25.6);
 }
 
 .white_bar
@@ -364,22 +364,22 @@ li {
     border-color: antiquewhite;
     border-style: solid;
     /* modify margin and padding here*/
-    padding: 30px;
-    margin: 25px;
-    width:310px;
-    margin-left: 50px;
-    margin-top: 205px;
+    padding: calc(100vw/42.667);
+    margin: calc(100vw/51.2);
+    width:calc(100vw/4.13);
+    margin-left: calc(100vw/25.6);
+    margin-top: calc(100vw/6.24);
     font-family:'Spectral';
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size:50%;
     border-color:aliceblue;
-    margin-top: 500px;
-    width: 250px;
-    margin: 20px;
-    padding: 50px;
-    border: 2px solid aliceblue;
+    margin-top: calc(100vw/2.56);
+    width: calc(100vw/5.12);
+    margin: calc(100vw/64);
+    padding: calc(100vw/25.6);
+    border: calc(100vw/640) solid aliceblue;
   }
 
   .JAVA_IMG{
