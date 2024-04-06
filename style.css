@@ -410,12 +410,13 @@ li {
   .container {
     display: grid;
     grid-template-rows: auto auto auto; /* Three rows of equal height */
+    position:relative
   }
 
   .item {
-    padding: 20px; /* Padding around grid items */
-    border: .5px solid aliceblue; /* Border around grid items */
-    width:450px;
+    padding: calc(100vw/64); /* Padding around grid items */
+    border: calc(100vw/2560) solid aliceblue; /* Border around grid items */
+    width:calc(100vw/2.844);
   }
 
   .tooltip {
@@ -489,3 +490,9 @@ li {
     margin-top:calc(100vw/8.5333);
 }
 
+.ml_projects_grid
+{
+    position: relative;
+    width:100vw;
+    margin-top:calc(100vw/8.5333);
+}
