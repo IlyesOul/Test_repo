@@ -240,7 +240,7 @@ a:visited{
 
 .title
 {
-    font-family: '"Lucida Console", "Courier New", monospace;';
+    font-family: "Lucida Console", "Courier New", monospace;;
     margin-top:calc(-100vw/6.7638);
     color:white;
     font-size: calc(100vw/25.6);
@@ -249,11 +249,12 @@ a:visited{
 
 .blue_bar
 {
+    position:absolute;
     width:calc(100vw/213.33);
     height: calc(100vw/9);
     background-color:blue;
-    margin-left:calc(100vw/1.463);
-    margin-top:calc(-100vw/15.059);
+    left:calc(100vw/1.3);
+    top:calc(100vw/5.75);
 }
 
 .green_bar
@@ -285,10 +286,11 @@ a:visited{
 
 .intro_text
 {
-    font-family: '"Lucida Console", "Courier New", monospace;';
+    position:absolute;
+    font-family: "Lucida Console", "Courier New", monospace;;
     font-size:calc(100vw/64);
     color:rgb(183, 181, 181);
-    margin-left:calc(100vw/1.4222);
+    left:calc(100vw/1.27);
 }
 
 .learn_more_box
@@ -451,20 +453,22 @@ li {
 
 .instruction_text
 {
+    position:absolute;
     font-family: Lucida Console, Courier New, monospace;
     color:whitesmoke;
-    margin-top:calc(-100vw/8.205);
+    top:calc(100vw/7.25);
     font-size: calc(100vw/91.429);
-    margin-left:calc(100vw/10);
+    left:calc(100vw/24);
 }
 
 .instruction_bar
 {
+    position:absolute;
     height:calc(100vw/426.667);
     width: calc(100vw/4.741);
     background-color:darkgreen;
-    margin-left:calc(100vw/128);
-    margin-top:calc(-100vw/21.333);
+    left:calc(100vw/128);
+    top:calc(100vw/21.333);
 }
 
 .description_img {
@@ -501,4 +505,125 @@ li {
 {
     position: relative;
     width:99vw;
+}
+
+.green-circle-button {
+    
+    position:absolute;
+    text-decoration: none; /* Remove default underline */
+    background-color:darkgreen;
+    left:calc(100vw/7.5); 
+    border-radius: 50%;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
+    background-color: darkgreen; 
+    top:calc(100vw/8);
+}
+
+/* Hover effect for the button */
+.green-circle-button:hover {
+    background-color: rgb(1, 62, 1); /* Darker color on hover */
+}
+
+.red-circle-button {
+    position:absolute;
+    text-decoration: none; /* Remove default underline */
+    left:calc(100vw/7.5); 
+    border-radius: 50%;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
+    background-color: red; 
+    top:calc(100vw/4.25);
+}
+
+/* Hover effect for the button */
+.red-circle-button:hover {
+    background-color: rgb(150, 2, 2); /* Darker color on hover */
+}
+
+.white-circle-button {
+    position:absolute;
+    text-decoration: none; /* Remove default underline */
+    left:calc(100vw/7.5); 
+    border-radius: 50%;
+    width: calc(100vw/28.444);
+    height: calc(100vw/28.444);
+    background-color: white; 
+    top:calc(100vw/2.85);
+}
+
+/* Hover effect for the button */
+.white-circle-button:hover {
+    background-color: rgb(196, 196, 196); /* Darker color on hover */
+}
+
+.intro_grid
+{
+    position: relative;
+    width:99vw;
+}
+
+.green-circle-button::after {
+    content: attr(title); /* Use the 'title' attribute content as tooltip text */
+    position: absolute;
+    top: 50%; /* Position the tooltip vertically centered */
+    left: 50%; /* Position the tooltip horizontally centered */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 6px 12px; /* Padding around the tooltip text */
+    border-radius: 4px; /* Rounded corners for the tooltip */
+    white-space: nowrap; /* Prevent tooltip text from wrapping */
+    z-index: 1; /* Ensure tooltip appears above the button */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    left:calc(100vw/12)
+}
+
+/* Show tooltip on hover */
+.green-circle-button:hover::after {
+    opacity: 1; /* Show tooltip when button is hovered over */
+}
+.red-circle-button::after {
+    content: attr(title); /* Use the 'title' attribute content as tooltip text */
+    position: absolute;
+    top: 50%; /* Position the tooltip vertically centered */
+    left: 50%; /* Position the tooltip horizontally centered */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 6px 12px; /* Padding around the tooltip text */
+    border-radius: 4px; /* Rounded corners for the tooltip */
+    white-space: nowrap; /* Prevent tooltip text from wrapping */
+    z-index: 1; /* Ensure tooltip appears above the button */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    left:calc(100vw/12)
+}
+
+/* Show tooltip on hover */
+.red-circle-button:hover::after {
+    opacity: 1; /* Show tooltip when button is hovered over */
+}
+
+.white-circle-button::after {
+    content: attr(title); /* Use the 'title' attribute content as tooltip text */
+    position: absolute;
+    top: 50%; /* Position the tooltip vertically centered */
+    left: 50%; /* Position the tooltip horizontally centered */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 6px 12px; /* Padding around the tooltip text */
+    border-radius: 4px; /* Rounded corners for the tooltip */
+    white-space: nowrap; /* Prevent tooltip text from wrapping */
+    z-index: 1; /* Ensure tooltip appears above the button */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    left:calc(100vw/12)
+}
+
+/* Show tooltip on hover */
+.white-circle-button:hover::after {
+    opacity: 1; /* Show tooltip when button is hovered over */
 }
