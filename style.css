@@ -276,11 +276,11 @@ a:visited{
 
 .white_bar
 {
-    height:3px;
-    width: 270px;
+    height:calc(100vw/426.7);
+    width: calc(100vw/4.74);
     background-color:whitesmoke;
-    margin-left:110px;
-    margin-top:-50px;
+    margin-left:calc(100vw/11.64);
+    margin-top:calc(-100vw/25.6);
 }
 
 .intro_text
