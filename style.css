@@ -496,3 +496,9 @@ li {
     width:100vw;
     margin-top:calc(-100vw/75);
 }
+
+.independent_grid
+{
+    position: relative;
+    width:99vw;
+}
